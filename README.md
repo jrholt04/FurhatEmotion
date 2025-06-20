@@ -1,4 +1,13 @@
 # FurhatEmotion
+
+## Set Up
+1. create a conda env that is running python 3.9: conda create -n <envname> python=3.9
+2. install deep face: pip install deepface
+3. install open cv: pip install opencv-python
+4. install tf-keras: pip install tf-keras
+5. install zero-mq: pip install pyzmq
+6. install vader: pip install vaderSentiment
+
 ## 🔍 YOLOv3 Weights Required
 
 The file `yolov3.weights` is **not included** in this repository because of its large size.
