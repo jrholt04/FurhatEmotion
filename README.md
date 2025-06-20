@@ -18,4 +18,6 @@ To run the detection successfully, please:
    [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
 
 2. Place the downloaded file in the following directory: faceSkillDetectionServer
-3. run this to not track your ip in the launch.json: git update-index --assume-unchanged faceSkillDetectionServer/launch.json
+
+## Git
+1. run this to not track your ip in the launch.json: git update-index --assume-unchanged faceSkillDetectionServer/launch.json
