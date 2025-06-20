@@ -1,7 +1,0 @@
-{
-    "Furhat_IP": "<your furhat ip>",
-    "Dev_IP": "<your server ip>",
-    "detection_exposure_port": "9999",
-    "detection_period": 10,
-    "detection_confidence_threshold": 0.5
-}
