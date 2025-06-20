@@ -12,7 +12,7 @@ import kotlinx.coroutines.GlobalScope
 import zmq.ZMQ.ZMQ_SUB
 
 val logger = CommonUtils.getRootLogger()
-val objserv = "tcp://10.20.3.12:9999" //The TCP socket of the object server
+val objserv = "tcp://<your server ip>:9999" //The TCP socket of the object server
 
 val subSocket: ZMQ.Socket = getConnectedSocket(ZMQ_SUB, objserv) //Makes a socket of the object server
 val emotion = "emotion_"

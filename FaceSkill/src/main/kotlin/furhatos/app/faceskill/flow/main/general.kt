@@ -14,7 +14,7 @@ import zmq.ZMQ.ZMQ_PUB
 /**
  * Events used for communication between the thread and the flow.
  */
-val OUT_PORT = "10.20.3.150:8888"
+val OUT_PORT = "<your server ip>:8888"
 class Emotion(val emotion: List<String>): Event()
 val pubSocket: ZMQ.Socket = getConnectedSocket(ZMQ_PUB, OUT_PORT)
 
